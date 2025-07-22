@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowLeft, Search, Copy } from "lucide-react";
 import Link from "next/link";
-import Image from 'next/image';
+import { prefix } from '@/prefix';
 
 export default function TelegramChatIdFinder() {
     const [token, setToken] = useState('');
