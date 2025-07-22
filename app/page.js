@@ -37,7 +37,7 @@ export default function LandingPage() {
                             We Are Abyssal Army
                         </h1>
                         <p className="mt-4 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-                            AbyssalArmy crafts privacy-focused tools, reverse engineering workflows, and self-hosted infrastructure for power users and developers.
+                            We build to pentest, hack, and crack the codes of operating systems, apps, and networks — because real control means knowing how it breaks
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto pb-12">
