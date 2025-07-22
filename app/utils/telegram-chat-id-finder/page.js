@@ -39,7 +39,7 @@ export default function TelegramChatIdFinder() {
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <Link href="/" className="flex items-center">
-                                <img src="/abyssal.jpg" alt="Abyssal Army Logo" width="32" height="32" className="rounded-full" />
+                                <img src={`${prefix}/abyssal.jpg`} alt="Abyssal Army Logo" width="32" height="32" className="rounded-full" />
                                 <span className="ml-3 text-xl font-semibold">Abyssal Army</span>
                             </Link>
                         </div>
@@ -151,7 +151,7 @@ function UpdateCard({ update }) {
                 </Button>
             </div>
             {text && (
-                 <div className="mt-4 pt-4 border-t border-white/10">
+                <div className="mt-4 pt-4 border-t border-white/10">
                     <p className="text-sm text-gray-400">Last message from {from.first_name}:</p>
                     <p className="text-white italic">"{text}"</p>
                 </div>
